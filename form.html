@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<title>Amrita Test Page</title>
+   
+</head>
+
+<body>
+    <form action="/info_url/" method="post">
+
+        <label for="firstName"> First name: </label>
+        <input type="text" 
+               name="firstName" 
+               placeholder="first name" 
+               required
+        >
+        
+        <label for="lastName"> Last name: </label>
+        <input type="text" 
+               name="lastName" 
+               placeholder="last name" 
+               required
+        >
+    
+        <label for="bio"> Bio: </label>
+        <textarea name="bio"></textarea>
+    
+        <select id="age">
+          <option value="15-18">15-18</option>
+          <option value="19-25">19-25</option>
+          <option value="26-30">26-30</option>
+          <option value="31-36">31-36</option>
+        </select>
+    
+        <input type="submit" value="Submit">
+        
+      </form>
+
+</body>
+</html>
