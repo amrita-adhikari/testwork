@@ -3,7 +3,7 @@
 <head>
 
 <title>Amrita Test Page</title>
-   
+<link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -21,7 +21,17 @@
       </nav>
     
       <article>
-          
+        <button type="button" class="btn btn-primary position-relative">
+          Inbox
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            99+
+            <span class="visually-hidden">unread messages</span>
+          </span>
+        </button>
+        <span class="badge text-bg-primary">Primary</span>
+        <span class="badge text-bg-secondary">Secondary</span>
+        <span class="badge text-bg-success">Success</span>
+        <span class="badge text-bg-danger">Danger</span>
         <h1> An article about us </h1> 
         <p> Article content </p>
     
